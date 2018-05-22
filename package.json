@@ -1,0 +1,13 @@
+{
+  "name": "ms-converter",
+  "version": "1.0.0",
+  "description": "a lightweight time converter that outputs the given time duration range",
+  "main": "index.js",
+  "scripts": {
+  	"test": "node test/index.js"
+  },
+  "repository": "https://github.com/Vuchan/time-converter.git",
+  "author": "Vuchan Wu <givingwu@gmail.com> (vuchan.github.io)",
+  "license": "MIT",
+  "private": false
+}
