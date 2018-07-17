@@ -9,7 +9,7 @@ export const fixLen = n => n < 10? '0'+n : n.toString()
  * @param {Number: milliseconds}  range 			Must pass a Number
  * @return {Object} { d: Number, h: Number, m: Number, s: Number, ms: Number }
  */
-export function geneRange(range) {
+export default function geneRange(range) {
 	if (!+range) throw new TypeError()
 	if (+range <= 0) throw new ReferenceError()
 
